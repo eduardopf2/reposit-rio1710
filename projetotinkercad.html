@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto TinkerCad</title>
+</head>
+<body>
+
+    <br>
+    <a href="./index.html">Principalㅤ</a>
+    <a href="./semaforosimples.html">Projeto tinker semáforo simplesㅤ</a>
+    <a href="./arduinosemaforoS.html">Arduíno semáforo simplesㅤ</a>
+    <a href="./semáforoduplotinkercad.html">Semáforo duploㅤ</a>
+    <a href="./semáforoduploArduino.html">Semáforo duplo Arduínoㅤ</a>
+    <a href="./projetotinkercad.html">TinkerCadㅤ</a>
+    <a href="./projetotinkercad2.html">TinkerCad 9 á 0ㅤ</a>
+    <br>
+   
+    <h1>projeto com Tinkercad – Contador crescente de 0 à 9:</h1>
+
+    <img src="final1.jpg" alt="projeto 1">
+
+    <h1>Código C++</h1>
+
+    <pre>// C++ code
+//
+void setup()
+{
+  pinMode(2, OUTPUT);
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(2, LOW);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(7, LOW);
+  digitalWrite(8, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, LOW);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, LOW);
+  digitalWrite(8, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+}</pre>

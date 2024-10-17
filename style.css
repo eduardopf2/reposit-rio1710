@@ -1,0 +1,28 @@
+body{
+    background-color: lightblue;
+    color: slategrey;
+    text-align: center;
+
+}
+a:hover{
+    background-color: aqua;
+    font-size: larger;
+}
+
+#chucky{
+    width: 400px;
+    height: 800px;
+}
+
+#farias{
+    width: 400px;
+    height: 400px;
+}
+#bixa{
+    width: 500px;
+    height: 500px;
+}
+#ouvirao{
+    width: 479px;
+    height: 493px;
+}

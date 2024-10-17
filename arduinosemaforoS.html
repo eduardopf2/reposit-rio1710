@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arduíno semáforo simples</title>
+</head>
+<body>
+    
+    <br>
+    <a href="./index.html">Principalㅤ</a>
+    <a href="./semaforosimples.html">Projeto tinker semáforo simplesㅤ</a>
+    <a href="./arduinosemaforoS.html">Arduíno semáforo simplesㅤ</a>
+    <a href="./semáforoduplotinkercad.html">Semáforo duploㅤ</a>
+    <a href="./semáforoduploArduino.html">Semáforo duplo Arduínoㅤ</a>
+    <a href="./projetotinkercad.html">TinkerCadㅤ</a>
+    <a href="./projetotinkercad2.html">TinkerCad 9 á 0ㅤ</a>
+    <br>
+    
+    <h1>Semáforo simples com contador de led intermitente</h1>
+    <h2>Montagem prática</h2>
+
+    <img id="bixa" src="montagempratica1.jpeg" alt="montagem prática">
+
+    <h1>Montagem prática</h1>
+
+    <a href="https://youtube.com/shorts/m2XCyz27SYI?si=cBv0UXDtGnYW2ZTS">semáforo simples</a>>
+
+   
+    
+    
+    <h1>IDE do Arduíno</h1>
+         <img src="idearduino.jpg" alt="IDE do Arduíno">
+         
+        
+    <h1>Código C++</h1>
+
+    <pre>// C++ code
+         //
+         int num = 0;
+            
+        void setup()
+        {
+        pinMode(A0, INPUT);
+        Serial.begin(9600);
+        pinMode(12, OUTPUT);
+        num = 0;
+        }
+            
+        void loop()
+        {
+        num += 0;
+        num += analogRead(A0);
+        Serial.println(num);
+        if (num < 500) {
+        digitalWrite(12, HIGH);
+        } else {
+        digitalWrite(12, LOW);
+         }
+         delay(500); // Wait for 500 millisecond(s)</pre>
+
+         
+
+         
+
+
+</body>
+</html>
